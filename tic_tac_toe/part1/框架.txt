@@ -1,0 +1,26 @@
+start:
+
+    # draw a board
+    board = new_board()
+    loop:
+        # 获取当前玩家
+        current_player = ???
+
+        # 获取玩家A/B走的格子
+        move_co_ords = get_move()
+
+        # 填充一个格子
+        make_move(board, move_co_ords, current_player)
+
+        # update board
+        render(board)
+
+        if winner is not None:
+            game over(the winner is A/B)
+            break
+
+        if there is no winner and the board is full:
+            game over(IT'S A DRAW!)
+            break
+
+end
