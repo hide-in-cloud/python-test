@@ -1,0 +1,4 @@
+I am a student.
+Hello world!
+Do you know python?
+I love python.
